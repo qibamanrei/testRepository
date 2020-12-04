@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+  <style type="text/css">
+    /* 超链接去下划线 */
+    a{
+      text-decoration: none;
+    }
+
+    /*头部logo居中*/
+    #div1{
+      margin-left:300px;  /*或padding*/
+    }
+  </style>
+
+  <script>
+    //轮播图
+    var i = 9;
+    function loop() {
+      var picsrc = document.getElementById('loopPic');
+      picsrc.src="../img/img"+i+".jpg";
+      if (i<9){
+        i++;
+      }else{
+        i=8;
+      }
+    }
+    onload = setInterval(loop,5000);
+
+
+  </script>
+</head>
+<body>
+  <!--顶端及轮播图-->
+  <table width="100%">
+    <tr height="50px" >
+      <td>
+        <table width="100%">
+          <tr>
+            <td>
+              <img src="../img/logo.jpg" alt="">
+            </td>
+            <td>
+              <div id="div1">
+                <img src="../img/img5.jpg" alt="">&nbsp;&nbsp;&nbsp;
+                <img src="../img/img6.jpg" alt="">&nbsp;&nbsp;&nbsp;
+                <img src="../img/img7.jpg" alt="">&nbsp;&nbsp;&nbsp;
+                <img src="../img/img4.jpg" alt="">&nbsp;
+              </div>
+            </td>
+            <td align="center">
+              <a href="./login.html"><font color="#337AB7">登录</font></a>&nbsp;&nbsp;&nbsp;
+              <a href="./register.jsp"><font color="#337AB7">注册</font></a>&nbsp;&nbsp;&nbsp;
+              <a href="*"><font color="#337AB7">购物车</font></a>
+            </td>
+          </tr>
+        </table>
+      </td>
+
+    </tr>
+
+    <tr bgcolor="#808080" height="50px">
+      <td>
+        <font color="white">首页</font>&nbsp;&nbsp;&nbsp;&nbsp;
+        <font color="white">精品手机</font>&nbsp;&nbsp;&nbsp;&nbsp;
+        <font color="white">数码时尚</font>&nbsp;&nbsp;&nbsp;&nbsp;
+        <font color="white">办公设备</font>&nbsp;&nbsp;&nbsp;&nbsp;
+        <font color="white">主板显卡</font>&nbsp;&nbsp;&nbsp;&nbsp;
+        <font color="white">智能设备</font>&nbsp;&nbsp;&nbsp;&nbsp;
+        <font color="white">Macbook</font>&nbsp;&nbsp;&nbsp;&nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p></p>
+        <!--轮播图-->
+        <img id="loopPic" src="../img/img8.jpg" width="100%" height="300px">
+      </td>
+    </tr>
+  </table>
+  <p></p>
+
+  <!--第一块图片展示-->
+  <table width="100%">
+    <tr>
+      <td colspan="5">
+        <font size="5px">热门商品</font>
+        <img src="../img/title2.jpg">
+      </td>
+    </tr>
+    <tr align="center">
+      <td>
+        <img src="../img/hm00001min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>Redmi Note8 4800</sapn>
+      </td>
+      <td>
+        <img src="../img/hm00002min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>Redmi 8A 5000mAh</sapn>
+      </td>
+      <td>
+        <img src="../img/hm00003min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>Redmi Note7 4800万</sapn>
+      </td>
+      <td>
+        <img src="../img/hm00004min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>Redmi 7 4000mAh</sapn>
+      </td>
+      <td>
+        <img src="../img/hm00005min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>荣耀6m quse</sapn>
+      </td>
+    </tr>
+    <tr align="center">
+      <td>
+        <img src="../img/xm00001min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>荣耀20 李现同款</sapn>
+      </td>
+      <td>
+        <img src="../img/ry00001min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>荣耀9X</sapn>
+      </td>
+      <td>
+        <img src="../img/ry00002min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>荣耀20i 3200万</sapn>
+      </td>
+      <td>
+        <img src="../img/ry00003min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>Redmi 8A 5000m</sapn>
+      </td>
+      <td>
+        <img src="../img/ry00004min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>Redmi Note8Pro</sapn>
+      </td>
+    </tr>
+    <tr align="center">
+      <td>
+        <img src="../img/xm00002min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>小米Max3 5500mAh</sapn>
+      </td>
+      <td>
+        <img src="../img/xm00003min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>小米CC9美图定制版</sapn>
+      </td>
+      <td>
+        <img src="../img/xm00004min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>小米红米8</sapn>
+      </td>
+      <td>
+        <img src="../img/hm00004min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>小米 红米Note8</sapn>
+      </td>
+      <td>
+        <img src="../img/hm00005min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>荣耀6m quse</sapn>
+      </td>
+    </tr>
+  </table>
+  <p></p>
+
+  <!--横幅图片-->
+  <img src="../img/img2.webp" width="100%">
+  <p></p>
+
+  <!--第二块图片展示-->
+  <table width="100%">
+    <tr>
+      <td colspan="5">
+        <font size="5px">优选商品</font>
+        <img src="../img/title2.jpg">
+      </td>
+    </tr>
+    <tr align="center">
+      <td>
+        <img src="../img/ip700006min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>荣耀20 李现同款</sapn>
+      </td>
+      <td>
+        <img src="../img/ip800004min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>荣耀9X</sapn>
+      </td>
+      <td>
+        <img src="../img/ip1100001min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>荣耀20i 3200万</sapn>
+      </td>
+      <td>
+        <img src="../img/ip1100002min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>Redmi 8A 5000m</sapn>
+      </td>
+      <td>
+        <img src="../img/ip1100003min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>Redmi Note8Pro</sapn>
+      </td>
+    </tr>
+    <tr align="center">
+      <td>
+        <img src="../img/ip1100005min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>荣耀20 李现同款</sapn>
+      </td>
+      <td>
+        <img src="../img/pro20min.png" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>荣耀9X</sapn>
+      </td>
+      <td>
+        <img src="../img/vv00001min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>荣耀20i 3200万</sapn>
+      </td>
+      <td>
+        <img src="../img/vv00002min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>Redmi 8A 5000m</sapn>
+      </td>
+      <td>
+        <img src="../img/vv00003min.jpg" width="70%"><br>
+        <font color="red">￥：3210</font><br>
+        <sapn>Redmi Note8Pro</sapn>
+      </td>
+    </tr>
+  </table>
+  <p></p>
+
+  <!--横幅图片-->
+  <img src="../img/img1.webp" width="100%">
+  <p></p>
+
+  <!--底部文字-->
+  <table width="100%">
+    <tr align="center" height="50px">
+      <td>
+        <a href="*"><font color="#337ab7">关于我们</font></a>&nbsp;&nbsp;
+        <a href="*"><font color="#337ab7">联系我们</font></a>&nbsp;&nbsp;
+        <a href="*"><font color="#337ab7">联系客服</font></a>&nbsp;&nbsp;
+        <a href="*"><font color="#337ab7">合作招商</font></a>&nbsp;&nbsp;
+        <a href="*"><font color="#337ab7">商家帮助</font></a>&nbsp;&nbsp;
+        <a href="*"><font color="#337ab7">营销中心</font></a>&nbsp;&nbsp;
+        <a href="*"><font color="#337ab7">手机帮助</font></a>&nbsp;&nbsp;
+        <a href="*"><font color="#337ab7">销售联盟</font></a>&nbsp;&nbsp;
+      </td>
+    </tr>
+    <tr align="center">
+      <td>
+        &copy;2005-2020&nbsp;东易买版权所有，并保留所有权利
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
